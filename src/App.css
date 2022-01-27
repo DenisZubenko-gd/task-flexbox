@@ -4,3 +4,32 @@ body,
     height: 100%;
     margin: 0;
 }
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 300px;
+    justify-content: space-between;
+}
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #daa520;
+    border-radius: 100px;
+}
+div:nth-child(1) {
+    align-self: flex-start;
+}
+
+div:nth-child(2) {
+    align-self: center;
+}
+div:nth-child(3) {
+    align-self: flex-end;
+}
+div:nth-child(4) {
+    align-self: center;
+}
+div:nth-child(5) {
+    align-self: flex-start;
+}
